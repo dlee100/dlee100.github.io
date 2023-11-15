@@ -1,0 +1,3 @@
+[submodule "mysite/themes/shadharon"]
+	path = mysite/themes/shadharon
+	url = https://github.com/syedzayyan/shadharon

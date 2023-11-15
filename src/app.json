@@ -1,8 +1,0 @@
-{
-  "description":"Static site",
-  "@type":"WebSite",
-  "headline":"Welcome to GitHub Pages",
-  "url":"https://dlee100.github.io/",
-  "name":"dlee100.github.io",
-  "@context":"https://schema.org"
-}
