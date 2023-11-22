@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1 class="mr-2">Mingalaba</h1>
+      <h1 class="mr-2">Hi, I'm Dan.</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -41,25 +41,20 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+	I am a husband, father, and worker.
       </p>
+
       <p>
-        Read the blog posts or check
-        <LinkButton
-          className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
+        I am an OS level software integrator and developer.
+        I made this to relearn web development, more specifically SSG types.
+        Hopefully I can settle with this Astro web framework to end my framework hopping.
       </p>
+
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
           <div class="social-wrapper">
-            <div class="social-links">Social Links:</div>
+            <div class="social-links">Some of my links:</div>
             <Socials />
           </div>
         )
